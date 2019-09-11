@@ -1,0 +1,45 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: D:/homework/csc418/computer-graphics-ray-tracing/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_db1ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.8.169+g1ccb72aefa
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/10/4 13:23:48。
+节点 1 上的项目“D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\cmTC_db1ee.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_db1ee.dir\Debug\”。
+  正在创建目录“D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_db1ee.dir\Debug\cmTC_db1ee.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_db1ee.dir\Debug\cmTC_db1ee.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_db1ee.dir\Debug\\" /Fd"cmTC_db1ee.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue  -std=c++0x "D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.15.26730 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_db1ee.dir\Debug\\" /Fd"cmTC_db1ee.dir\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue  -std=c++0x "D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\src.cxx"
+  
+cl : 命令行 warning D9002: 忽略未知选项“-std=c++0x” [D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\cmTC_db1ee.vcxproj]
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\Debug\cmTC_db1ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/homework/csc418/computer-graphics-ray-tracing/CMakeFiles/CMakeTmp/Debug/cmTC_db1ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/homework/csc418/computer-graphics-ray-tracing/CMakeFiles/CMakeTmp/Debug/cmTC_db1ee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_db1ee.dir\Debug\src.obj
+  cmTC_db1ee.vcxproj -> D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\Debug\cmTC_db1ee.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_db1ee.dir\Debug\cmTC_db1ee.tlog\unsuccessfulbuild”。
+  正在对“cmTC_db1ee.dir\Debug\cmTC_db1ee.tlog\cmTC_db1ee.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\cmTC_db1ee.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\cmTC_db1ee.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c++0x” [D:\homework\csc418\computer-graphics-ray-tracing\CMakeFiles\CMakeTmp\cmTC_db1ee.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:03.54
+
+Source file was:
+int main() { return 0; }
